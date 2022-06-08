@@ -1,0 +1,20 @@
+header{
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+ul li a{
+    margin-left: 10px;
+    color: black;
+}

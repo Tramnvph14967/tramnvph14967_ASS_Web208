@@ -1,0 +1,53 @@
+.row.top {
+    display: grid;
+    grid-template-columns: auto 300px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.btn {
+    background: rgb(208, 4, 4);
+    color: aliceblue;
+    width: 208px;
+    height: 47px;
+    font-size: 20px;
+}
+h2{
+    font-size: 44px;
+}
+p{
+    font-size: 16px;
+}
+.image {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.session{
+    padding: 10px 10px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+strong{
+    font-size: 26px;
+}
+p span{
+    font-size: 18px;
+}
+.row-bottom{
+    display: grid;
+    grid-template-columns: 246px auto;
+    padding: 10px 0px;
+}
+.row-rigth{
+    margin-left: 10px;
+}
+h4{
+    font-size: 22px;
+    color: black;
+}
