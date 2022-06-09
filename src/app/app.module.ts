@@ -12,6 +12,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { HttpClientModule } from '@angular/common/http'
 import { RouterModule } from '@angular/router';
 import { BlogComponent } from './pages/blog/blog.component';
+import { WorkComponent } from './pages/work/work.component';
+import { WorkDetailComponent } from './pages/work-detail/work-detail.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { BlogComponent } from './pages/blog/blog.component';
     PagesComponent,
     HomeComponent,
     BlogComponent,
+    WorkComponent,
+    WorkDetailComponent,
 
   ],
   imports: [
