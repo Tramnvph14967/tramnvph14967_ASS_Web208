@@ -1,3 +1,7 @@
+.content{
+    width: 980px;
+    margin: auto;
+}
 .row.top {
     display: grid;
     grid-template-columns: auto 300px;

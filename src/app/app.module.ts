@@ -7,7 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 
 import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
-import { PagesComponent } from './pages/pages.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HttpClientModule } from '@angular/common/http'
 import { RouterModule } from '@angular/router';
@@ -20,7 +19,6 @@ import { WorkDetailComponent } from './pages/work-detail/work-detail.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PagesComponent,
     HomeComponent,
     BlogComponent,
     WorkComponent,

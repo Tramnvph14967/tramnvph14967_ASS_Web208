@@ -1,0 +1,19 @@
+.content{
+    width: 980px;
+    margin: auto;
+}
+.row{
+    display: grid;
+    grid-template-columns: 246px auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.col-right{
+    margin-left: 10px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+}
