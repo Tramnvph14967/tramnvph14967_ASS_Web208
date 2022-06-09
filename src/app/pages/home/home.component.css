@@ -1,10 +1,13 @@
 .content{
-    width: 980px;
     margin: auto;
+}
+.container{
+    width: 980px;
 }
 .row.top {
     display: grid;
     grid-template-columns: auto 300px;
+    padding: 170px 0px 0px 0px;
 }
 a{
     text-decoration: none;
@@ -22,8 +25,12 @@ li{
 h2{
     font-size: 44px;
 }
+.thong_tin{
+    margin: 35px 0px 0px 0px;
+}
 p{
     font-size: 16px;
+    padding: 10px;
 }
 .image {
     border-radius: 50%;
@@ -36,6 +43,7 @@ p{
 .row{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
 strong{
     font-size: 26px;
@@ -46,12 +54,33 @@ p span{
 .row-bottom{
     display: grid;
     grid-template-columns: 246px auto;
-    padding: 10px 0px;
+    padding: 30px 0px;
 }
 .row-rigth{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 h4{
     font-size: 22px;
     color: black;
+}
+.btn{
+    margin: 30px 0px 0px 0px;
+    margin-bottom: 65px;
+}
+.session.beetwen{
+    background: #EDF7FA;
+}
+.col.beetwen{
+    background-color: #fcfcfc;
+    margin: 0px 10px;
+    padding: 20px;
+}
+.row.beetwen{
+    margin: 4px 0px;
+}
+.cate{
+    padding: 50px 0px;
+}
+.view{
+    text-align: end;
 }

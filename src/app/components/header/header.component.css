@@ -1,5 +1,5 @@
 header{
-    width: 980px;
+    width: 858px;
     margin: auto;
     padding: 10px;
     font-size: 20px;
@@ -9,6 +9,7 @@ a{
 }
 li{
     list-style-type: none;
+
 }
 ul {
     display: flex;
@@ -18,4 +19,6 @@ ul {
 ul li a{
     margin-left: 10px;
     color: black;
+    font-weight: bold;
+    padding: 10px 20px;
 }
