@@ -84,3 +84,45 @@ h4{
 .view{
     text-align: end;
 }
+
+
+@media (max-width: 767.98px) {
+.col.top.image{
+   
+}
+
+h2{
+    font-size: 32px;
+}
+.thong_tin{
+    font-size: 16px;
+    margin: auto;
+}
+#ground{
+    display: flex;
+    flex-direction: column;
+}
+#ground #ground-top{
+    order: 2;
+}
+#ground #ground-bottom{
+    order: 1;
+}
+.row.top{
+    text-align: center;
+}
+.row.beetwen{
+    
+    display: flex;
+    flex-direction: column;
+}
+.strong{
+    font-size: 22px;
+}
+p{
+    font-size: 16px
+};
+.col.beetwen {
+    max-width: 87%;
+}
+}
