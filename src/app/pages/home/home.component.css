@@ -18,7 +18,6 @@ li{
 .btn {
     background: rgb(208, 4, 4);
     color: aliceblue;
-    width: 208px;
     height: 47px;
     font-size: 20px;
 }
@@ -87,9 +86,7 @@ h4{
 
 
 @media (max-width: 767.98px) {
-.col.top.image{
-   
-}
+
 
 h2{
     font-size: 32px;
@@ -123,6 +120,6 @@ p{
     font-size: 16px
 };
 .col.beetwen {
-    max-width: 87%;
+    width: 88%;
 }
 }

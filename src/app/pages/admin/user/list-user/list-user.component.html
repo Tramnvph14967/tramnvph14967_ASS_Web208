@@ -1,0 +1,20 @@
+<p>products works!</p>
+<table class="table table-bordered">
+    <tbody>
+        <tr *ngFor="let product of userList; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ product.name }}</td>
+            <td>
+                <button class="ms-1" routerLink="/product/edit/{{ product.id }}">
+                    Edit
+                </button>
+                <button class="ms-1" (click)="onRemoveItem(product.id!)">
+                    Remove
+                </button>
+                <button class="ms-1">info</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<router-outlet></router-outlet>

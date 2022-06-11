@@ -1,15 +1,9 @@
 {
   "products": [
     {
-      "id": 2,
-      "name": "product B",
-      "price": 300,
-      "status": false
-    },
-    {
       "id": 3,
       "name": "product C",
-      "price": 400,
+      "price": 40088,
       "status": false
     },
     {
@@ -21,6 +15,15 @@
       "name": "Product D",
       "price": 12334,
       "id": 5
+    }
+  ],
+  "users": [
+    {
+      "name": "Nguyễn Văn Trăm",
+      "position": "Xuy Xá Mỹ Đức hà Nội",
+      "about": "aaaaa",
+      "cv": "Lập Trình",
+      "id": 6
     }
   ]
 }
