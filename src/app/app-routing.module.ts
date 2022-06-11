@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: "work", component: WorkComponent },
   { path: "workDetail", component: WorkDetailComponent },
 
-
+//product
   {path: "product", children: [
       { path: "", redirectTo: 'list', pathMatch: 'full' },
       { path: 'list', component: ProductsComponent },
@@ -30,10 +30,13 @@ const routes: Routes = [
       { path: "edit/:id", component: ProductAddComponent },
   ]},
 
+  
+//user
   {path: "user", children: [
     { path: "", redirectTo: 'list', pathMatch: 'full' },
     { path: 'list', component: ListUserComponent },
     { path: "add", component: AddUserComponent },
+    { path: "edit/:id", component: AddUserComponent },
 ]},
 
 ];

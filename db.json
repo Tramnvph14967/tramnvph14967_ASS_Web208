@@ -17,13 +17,5 @@
       "id": 5
     }
   ],
-  "users": [
-    {
-      "name": "Nguyễn Văn Trăm",
-      "position": "Xuy Xá Mỹ Đức hà Nội",
-      "about": "aaaaa",
-      "cv": "Lập Trình",
-      "id": 6
-    }
-  ]
+  "users": []
 }
