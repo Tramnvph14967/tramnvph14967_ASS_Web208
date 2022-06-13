@@ -1,19 +1,24 @@
-<p>products works!</p>
+<a href="/admin/product/add">add</a>
 <table class="table table-bordered">
     <tbody>
+        <tr style="text-align:center;">
+            <th>###</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Status</th>
+        </tr>
         <tr *ngFor="let product of productList; let i = index">
             <td>{{ i + 1 }}</td>
             <td>{{ product.name }}</td>
             <td>{{ product.price }}</td>
             <td>{{ product.status}}</td>
             <td>
-                <button class="ms-1" routerLink="/product/edit/{{ product.id }}">
+                <button class="ms-1" routerLink="/admin/product/edit/{{ product.id }}">
                     Edit
                 </button>
                 <button class="ms-1" (click)="onRemoveItem(product.id!)">
                     Remove
                 </button>
-                <button class="ms-1">info</button>
             </td>
         </tr>
     </tbody>

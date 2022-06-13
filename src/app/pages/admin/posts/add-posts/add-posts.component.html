@@ -1,0 +1,13 @@
+<p>posts-add works!</p>
+{{ posts | json }}
+<form (ngSubmit)="onSubmit()">
+    <input type="text" [(ngModel)]="posts.title" placeholder="name" name="name" />
+    <input type="text" [(ngModel)]="posts.image" placeholder="price" name="price" />
+    <!-- <input type="text" [(ngModel)]="posts.createAt" placeholder="createAt" name="createAt" />
+    <input type="text" [(ngModel)]="posts.categoryPostId" placeholder="categoryPostId" name="categoryPostId" /> -->
+    <input type="text" [(ngModel)]="posts.shortDesc" placeholder="shortDesc" name="shortDesc" />
+    <input type="text" [(ngModel)]="posts.desc" placeholder="desc" name="desc" />
+    <button>Submit</button>
+
+
+</form>

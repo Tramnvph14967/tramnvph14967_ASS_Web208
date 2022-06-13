@@ -34,14 +34,14 @@ export class ProductAddComponent implements OnInit {
       this.productService.updateProduct(this.product).subscribe(data => {
         setTimeout(() => {
           // redirect về product list
-          this.router.navigateByUrl('/product');
+          this.router.navigateByUrl('admin/product');
         }, 2000)
       })
     }
     this.productService.addProduct(this.product).subscribe(data => {
       setTimeout(() => {
         // redirect về product list
-        this.router.navigateByUrl('/product');
+        this.router.navigateByUrl('admin/product');
       }, 2000)
     });
   }

@@ -4,18 +4,36 @@
       "id": 3,
       "name": "product C",
       "price": 40088,
-      "status": false
+      "status": "true"
     },
     {
       "name": "Product C",
       "price": 5000,
-      "id": 4
+      "id": 4,
+      "status": "true"
     },
     {
       "name": "Product D",
       "price": 12334,
-      "id": 5
+      "id": 5,
+      "status": "fales"
+    },
+    {
+      "name": "aaa",
+      "price": 333,
+      "status": true,
+      "id": 6
     }
   ],
-  "users": []
+  "users": [
+    {
+      "name": "nguyễn văn trăm",
+      "age": 18,
+      "email": "tramnvph14967@gmail.com",
+      "password": "123456",
+      "id": 1
+    }
+  ],
+  "posts": [],
+  "Project": []
 }

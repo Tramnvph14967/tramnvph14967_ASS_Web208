@@ -1,0 +1,30 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+header{
+    padding: 10px;
+    background-color: rgb(10, 8, 8);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul>li{
+    padding: 10px;
+}
+
+ul>li>a{
+    font-size: 26px;
+    color:rgb(247, 245, 245);
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}

@@ -23,8 +23,16 @@ import { ProductDetailComponent } from './pages/product/product-detail/product-d
 import { AddComponent } from './pages/admin/categoriesPosts/add/add.component';
 import { DetailComponent } from './pages/admin/categoriesPosts/detail/detail.component';
 import { ListComponent } from './pages/admin/categoriesPosts/list/list.component';
-import { AddUserComponent } from './pages/admin/user/add-user/add-user.component';
 import { ListUserComponent } from './pages/admin/user/list-user/list-user.component';
+
+
+import { LogupComponent } from './pages/logup/logup.component';
+import { LoginComponent } from './pages/login/login.component';
+import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
+import { SiteLayoutComponent } from './layout/site-layout/site-layout.component';
+import { AdminHeaderComponent } from './components/admin/admin-header/admin-header.component';
+import { AddPostsComponent } from './pages/admin/posts/add-posts/add-posts.component';
+import { ListPostsComponent } from './pages/admin/posts/list-posts/list-posts.component';
 
 @NgModule({
   declarations: [
@@ -47,8 +55,14 @@ import { ListUserComponent } from './pages/admin/user/list-user/list-user.compon
     AddComponent,
     DetailComponent,
     ListComponent,
-    AddUserComponent,
     ListUserComponent,
+    LogupComponent,
+    LoginComponent,
+    AdminLayoutComponent,
+    SiteLayoutComponent,
+    AdminHeaderComponent,
+    AddPostsComponent,
+    ListPostsComponent,
 
   ],
   imports: [
