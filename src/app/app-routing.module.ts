@@ -16,6 +16,12 @@ import { LogupComponent } from './pages/logup/logup.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ListUserComponent } from './pages/admin/user/list-user/list-user.component';
 
+
+
+import { AddPostsComponent } from './pages/admin/posts/add-posts/add-posts.component';
+import { ListPostsComponent } from './pages/admin/posts/list-posts/list-posts.component';
+
+
 const routes: Routes = [
   { path: '', component: LoginComponent },
   { path: 'login', component: LoginComponent },
@@ -49,6 +55,14 @@ const routes: Routes = [
         path: "user", children: [
           { path: "", redirectTo: 'list', pathMatch: 'full' },
           { path: 'list', component: ListUserComponent },
+        ]
+      },
+      {
+        path: "post", children: [
+          { path: "", redirectTo: 'list', pathMatch: 'full' },
+          { path: 'list', component: ListPostsComponent },
+          { path: "add", component: AddPostsComponent },
+          { path: "edit/:id", component: AddPostsComponent },
         ]
       },
 

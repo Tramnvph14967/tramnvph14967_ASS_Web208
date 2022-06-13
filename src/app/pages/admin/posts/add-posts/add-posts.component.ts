@@ -37,15 +37,15 @@ export class AddPostsComponent implements OnInit {
       this.postService.updatePost(this.posts).subscribe(data => {
         setTimeout(() => {
           // redirect về posts list
-          this.router.navigateByUrl('admin/posts');
-        }, 2000)
+          this.router.navigateByUrl('admin/post');
+        }, 1000)
       })
     }
     this.postService.addPost(this.posts).subscribe(data => {
       setTimeout(() => {
         // redirect về posts list
-        this.router.navigateByUrl('admin/posts');
-      }, 2000)
+        this.router.navigateByUrl('admin/post');
+      }, 1000)
     });
   }
 

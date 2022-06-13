@@ -1,1 +1,35 @@
-<p>list-posts works!</p>
+<a href="/admin/post/add">add</a>
+<table class="table table-bordered">
+    <tbody>
+        <tr style="text-align:center;">
+            <th>###</th>
+            <th>title</th>
+            <th>image</th>
+            <th>createAt</th>
+            <th>categoryPostId</th>
+            <th>shortDesc</th>
+            <th>desc</th>
+            <th></th>
+        </tr>
+        <tr *ngFor="let post of postList; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ post.title }}</td>
+            <td><img src="{{ post.image }}" alt=""></td>
+            <!-- <td>{{ post.createAt}}</td>
+            <td>{{ post.categoryPostId}}</td> -->
+            <td>{{ post.shortDesc}}</td>
+            <td>{{ post.desc}}</td>
+            <td>
+                <button class="ms-1" routerLink="/admin/post/edit/{{ post.id }}">
+                    Edit
+                </button>
+                <button class="ms-1" (click)="onRemoveItem(post.id!)">
+                    Remove
+                </button>
+            </td>
+
+        </tr>
+    </tbody>
+</table>
+
+<router-outlet></router-outlet>

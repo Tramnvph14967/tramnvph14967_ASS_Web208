@@ -1,13 +1,13 @@
-<p>posts-add works!</p>
-{{ posts | json }}
+<!-- <p>posts-add works!</p> -->
+<!-- {{ posts | json }} -->
 <form (ngSubmit)="onSubmit()">
-    <input type="text" [(ngModel)]="posts.title" placeholder="name" name="name" />
-    <input type="text" [(ngModel)]="posts.image" placeholder="price" name="price" />
-    <!-- <input type="text" [(ngModel)]="posts.createAt" placeholder="createAt" name="createAt" />
-    <input type="text" [(ngModel)]="posts.categoryPostId" placeholder="categoryPostId" name="categoryPostId" /> -->
-    <input type="text" [(ngModel)]="posts.shortDesc" placeholder="shortDesc" name="shortDesc" />
-    <input type="text" [(ngModel)]="posts.desc" placeholder="desc" name="desc" />
-    <button>Submit</button>
 
+    Title: <input class="mb-3 form-control" type="text" [(ngModel)]="posts.title" placeholder="name" name="name" />
+    Image: <input  class="mb-3 form-control"type="text"  placeholder="image" name="image" />
+    <!-- CreateAt:<input type="text" class="mb-3 form-control" [(ngModel)]="posts.createAt" placeholder="createAt" name="createAt" />
+    CategoryPostId: <input type="text" class="mb-3 form-control" [(ngModel)]="posts.categoryPostId" placeholder="categoryPostId" name="categoryPostId" /> -->
+    ShortDesc: <input type="text" class="mb-3 form-control" [(ngModel)]="posts.shortDesc" placeholder="shortDesc" name="shortDesc" />
+    Desc: <input type="text" class="mb-3 form-control" [(ngModel)]="posts.desc" placeholder="desc" name="desc" />
+    <button>Submit</button>
 
 </form>
