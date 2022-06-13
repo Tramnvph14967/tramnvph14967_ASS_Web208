@@ -36,18 +36,11 @@
   ],
   "posts": [
     {
-      "title": "aaaaaaaaaa",
-      "image": "500000",
-      "shortDesc": "aaaaaa",
-      "desc": "aaaaaaaaa",
-      "id": 2
-    },
-    {
       "title": "product_b",
       "image": "",
       "shortDesc": "aaaaaa",
       "desc": "aaaaaaaaaaaaaaa",
-      "id": 4
+      "id": 2
     }
   ],
   "Project": []
