@@ -8,15 +8,9 @@ import { WorkDetailComponent } from './pages/work-detail/work-detail.component';
 import { SiteLayoutComponent } from './layout/site-layout/site-layout.component';
 import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
 
-import { ProductAddComponent } from './pages/product/product-add/product-add.component';
-import { ProductDetailComponent } from './pages/product/product-detail/product-detail.component';
-import { ProductsComponent } from './pages/product/products/products.component';
-
 import { LogupComponent } from './pages/logup/logup.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ListUserComponent } from './pages/admin/user/list-user/list-user.component';
-
-
 
 import { AddPostsComponent } from './pages/admin/posts/add-posts/add-posts.component';
 import { ListPostsComponent } from './pages/admin/posts/list-posts/list-posts.component';
@@ -41,16 +35,7 @@ const routes: Routes = [
   {
     path: 'admin', component: AdminLayoutComponent,
     children: [
-      {
-        path: "product", children: [
-          { path: "", redirectTo: 'list', pathMatch: 'full' },
-          { path: 'list', component: ProductsComponent },
-          { path: "add", component: ProductAddComponent },
-          { path: ":id", component: ProductDetailComponent },
-          { path: "edit/:id", component: ProductAddComponent },
-
-        ]
-      },
+      
       {
         path: "user", children: [
           { path: "", redirectTo: 'list', pathMatch: 'full' },
