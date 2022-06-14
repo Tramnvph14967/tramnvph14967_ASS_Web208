@@ -122,4 +122,14 @@ p{
 .col.beetwen {
     width: 88%;
 }
+.row-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.row-rigth{
+    margin-top: 10px;
+}
+.img{
+    margin-left: 20px;
+}
 }

@@ -32,13 +32,18 @@
       "email": "tramnvph14967@gmail.com",
       "password": "123456",
       "id": 1
+    },
+    {
+      "email": "tramnvph14967@gmail.com",
+      "password": "123456",
+      "id": 2
     }
   ],
   "categoryPosts": [
-      {
-        "id": 1,
-        "name":"posts_1"
-      }
+    {
+      "id": 1,
+      "name": "posts_1"
+    }
   ],
   "posts": [
     {
@@ -47,12 +52,19 @@
       "shortDesc": "aaaaaa",
       "desc": "aaaaaaaaaaaaaaa",
       "id": 2
+    },
+    {
+      "title": "aaaaaaaa",
+      "image": "",
+      "shortDesc": "aaaaaaaaaaaa",
+      "desc": "aaaaaaaaaaaaaaaaaaa",
+      "id": 3
     }
   ],
-  "categoryProject":[
+  "categoryProject": [
     {
       "id": 1,
-      "name":"Project_1"
+      "name": "Project_1"
     }
   ],
   "Project": []

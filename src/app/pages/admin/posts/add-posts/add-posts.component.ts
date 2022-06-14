@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { IPosts } from '../../.././../models/Posts';
 import { PostsService } from 'src/app/services/posts.service';
+import { CategoryPosts } from '../../.././../models/CategoriesPosts';
+import { CategoryPostsService } from '../../../../services/category-posts.service';
 @Component({
   selector: 'app-add-posts',
   templateUrl: './add-posts.component.html',
@@ -17,10 +19,14 @@ export class AddPostsComponent implements OnInit {
     shortDesc: "",
     desc: "",
   }
+  categoryPost!: CategoryPosts[];
+
+
   constructor(
     private postService: PostsService,
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private cate : CategoryPostsService
   ) { }
 
   ngOnInit(): void {
@@ -30,6 +36,13 @@ export class AddPostsComponent implements OnInit {
         this.posts = data
       })
     }
+
+    
+ //  category
+ this.cate.getcategoriesPosts().subscribe(res => {
+  console.log(res)
+  this.categoryPost = res
+})
   }
   onSubmit() {
     const id = +this.route.snapshot.paramMap.get('id')!;
