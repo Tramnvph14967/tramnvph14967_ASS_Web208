@@ -34,6 +34,12 @@
       "id": 1
     }
   ],
+  "categoryPosts": [
+      {
+        "id": 1,
+        "name":"posts_1"
+      }
+  ],
   "posts": [
     {
       "title": "product_b",
@@ -41,6 +47,12 @@
       "shortDesc": "aaaaaa",
       "desc": "aaaaaaaaaaaaaaa",
       "id": 2
+    }
+  ],
+  "categoryProject":[
+    {
+      "id": 1,
+      "name":"Project_1"
     }
   ],
   "Project": []
