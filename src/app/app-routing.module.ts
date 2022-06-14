@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: 'logup', component: LogupComponent },
   {
     path: 'site',
-    component: SiteLayoutComponent,
+    component: SiteLayoutComponent, 
     children: [
       { path: "", component: HomeComponent },
       { path: "home", component: HomeComponent },
@@ -33,7 +33,7 @@ const routes: Routes = [
   },
 
   {
-    path: 'admin', component: AdminLayoutComponent,
+    path: 'admin', component: AdminLayoutComponent, 
     children: [
       
       {

@@ -30,6 +30,6 @@ export class UserService {
     return this.http.put<IUser>(`${this.API_URL}/${user.id}`, user);
   }
   login(user: { email: string, password: string }) {
-    return this.http.post<IUser>(`${this.API_URL}/login`, user)
+    return this.http.post<IUser>(`${this.API_URL}`, user)
 }
 }

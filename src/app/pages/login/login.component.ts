@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
         // redirect về signin
         alert("Bạn đã đăng nhập thành công mời sử dụng trang web");
         this.router.navigateByUrl('/site/home');
-      }, 1000)
+      }, 500)
     });
   }
 }
