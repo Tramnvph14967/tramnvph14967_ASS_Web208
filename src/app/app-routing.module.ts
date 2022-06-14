@@ -31,7 +31,6 @@ const routes: Routes = [
       { path: "workDetail", component: WorkDetailComponent },
     ]
   },
-
   {
     path: 'admin', component: AdminLayoutComponent, 
     children: [
@@ -50,7 +49,6 @@ const routes: Routes = [
           { path: "edit/:id", component: AddPostsComponent },
         ]
       },
-
     ]
   },
 

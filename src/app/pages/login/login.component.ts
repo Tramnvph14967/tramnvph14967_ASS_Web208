@@ -27,8 +27,6 @@ export class LoginComponent implements OnInit {
   onLogin() {
     this.userService.login(this.user).subscribe(user => {
       localStorage.setItem('user', JSON.stringify(user));
-
-      
       setTimeout(() => {
         // redirect về signin
         alert("Bạn đã đăng nhập thành công mời sử dụng trang web");

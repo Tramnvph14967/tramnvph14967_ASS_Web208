@@ -38,7 +38,6 @@ import { ListPostsComponent } from './pages/admin/posts/list-posts/list-posts.co
     WorkComponent,
     WorkDetailComponent,
 
-
     AddComponent,
     DetailComponent,
     ListComponent,
