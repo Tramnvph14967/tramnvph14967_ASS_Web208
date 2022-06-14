@@ -32,6 +32,11 @@
       "email": "tramnvph14967@gmail.com",
       "password": "123456",
       "id": 1
+    },
+    {
+      "email": "tramnvph14967@gmail.com",
+      "password": "123456",
+      "id": 2
     }
   ],
   "categoryPosts": [
