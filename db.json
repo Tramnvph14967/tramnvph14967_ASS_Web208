@@ -32,11 +32,6 @@
       "email": "tramnvph14967@gmail.com",
       "password": "123456",
       "id": 1
-    },
-    {
-      "email": "tramnvph14967@gmail.com",
-      "password": "123456",
-      "id": 2
     }
   ],
   "categoryPosts": [
@@ -47,18 +42,11 @@
   ],
   "posts": [
     {
-      "title": "product_b",
+      "title": "Making a design system from scratch",
       "image": "",
-      "shortDesc": "aaaaaa",
-      "desc": "aaaaaaaaaaaaaaa",
-      "id": 2
-    },
-    {
-      "title": "aaaaaaaa",
-      "image": "",
-      "shortDesc": "aaaaaaaaaaaa",
-      "desc": "aaaaaaaaaaaaaaaaaaa",
-      "id": 3
+      "shortDesc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "id": 5
     }
   ],
   "categoryProject": [
